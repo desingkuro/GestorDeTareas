@@ -6,7 +6,7 @@ export const StyleTask = StyleSheet.create({
         padding:10,
         height:70,
         width:350,
-        backgroundColor:'grey',
+        backgroundColor:'#713ABE',
         borderRadius:20,
         justifyContent:'center',
         alignItems:'flex-start',
