@@ -1,20 +1,21 @@
 import { StyleSheet } from "react-native"
 
-export const StyleAñadir = StyleSheet.create({
+export const StyleCreateTaskButton = StyleSheet.create({
     contenedorPrincipal:{
+        flexDirection: "row",
         alignItems:'center',
         justifyContent:'center',
-        position:'absolute',
         height:45,
         width:150,
-        backgroundColor:'#9D76C1',
-        borderRadius:20,
-        bottom:30,
-        right:10
+    },
+    addImg:{
+        width: 40,
+        height: 40,
+        marginRight: 20,
     },
     textBoton:{
         fontSize:18,
-        color:'#ffff',
+        color:'#000000',
         fontWeight:'700'
     }
 })

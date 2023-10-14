@@ -11,13 +11,14 @@ export function Navigation(){
             
         }}>
             <tabNavigation.Screen name='Principal' component={Home} options={{
-                tabBarLabel:'Principal',
+                tabBarLabel:'',
                 tabBarLabelStyle:{
-                    fontSize:15,
-                    color:'#9D76C1'
+                    fontSize:0,
+                    color:'#000000',
+
                 },
                 tabBarIcon:()=>{
-                    return <Entypo name="home" size={24} color="#9D76C1" />
+                    return <Entypo name="home" size={30} color="#000000" />
                 }
             }}/>
         </tabNavigation.Navigator>
